@@ -50,9 +50,9 @@ If we keep delving deeper into lower levels of abstraction until we reach indivi
 
 ### 1. Install Java
 
-Karel The Robot requires Java version 8 or later: https://adoptopenjdk.net
+Visit https://adoptium.net and click the blue "Latest release" button.
 
-The pre-selected version and JVM are usually fine, no need to change them.
+When the download is finished, click the downloaded file to install Java.
 
 ### 2. Download Karel
 
@@ -67,7 +67,7 @@ If double-clicking does not start Karel, the most probable causes are:
 1. Java is not installed correctly:
    - You skipped the Java requirement above
    - You downloaded Java, but did not install it
-   - You picked an inferior alternative to https://adoptopenjdk.net
+   - You picked an inferior alternative to https://adoptium.net
 2. `karel.jar` was silently renamed to `karel.jar.ZIP`
 
 Apparently, some Windows browsers silently rename `.jar` files to `.jar.ZIP` during download.
